@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  HomeView.h
 //  SecondApp
 //
 //  Created by JackyChen's iMac on 11/12/2015.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface HomeView : UIView
 
+@property (weak, nonatomic) IBOutlet UILabel *homeLbl;
 
 @end
-
